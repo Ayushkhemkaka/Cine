@@ -1,0 +1,44 @@
+.header {
+  width: 100%;
+  cursor: pointer;
+  position: fixed;
+  display: flex;
+  justify-content:space-between;
+  font-size: 3vw;
+  z-index: 100;
+  color: #1bc6ddec;
+  font-family: Georgia, "Gill Sans", Times, serif;
+  background-color: rgb(31, 30, 30);
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.901);
+  align-items: center;
+   flex-direction: row;
+  
+}
+
+.aditya{
+  color: #cde4e7ec;
+  display: flex-right;
+  padding-right: 5%;
+  font-size: 2vw;
+  display: flex;  
+  float: right;
+}
+
+.movieImage {
+  padding: 3px;
+  height: 5rem;
+  width: 5rem;
+}
+
+@media (max-width: 1000px) {
+  .header {
+    padding-top: 15px;
+    font-size: 8vw;
+  }
+}
+@media (max-width: 500px) {
+  .movieImage {
+    height: 3rem;
+    width: 3rem;
+  }
+}
